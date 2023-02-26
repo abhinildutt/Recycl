@@ -1,3 +1,7 @@
+const response = require('./app.js');
+console.log("===========")
+console.log(response);
+
 let map;
 function initMap() {
     map = new google.maps.Map(document.getElementById("map"), {
